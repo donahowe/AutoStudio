@@ -1,7 +1,7 @@
 <div align="center">
 
 ## AutoStudio: Crafting Consistent Subjects in Multi-turn Interactive Image Generation
-[📄[Paper](https://arxiv.org/abs/2404.18919)] &emsp; [🚩[Project Page](https://howe140.github.io/theatergen.io/)] <br>
+[📄[Paper](https://arxiv.org/abs/2406.01388)] &emsp; [🚩[Project Page](https://howe183.github.io/AutoStudio.io/)] <br>
 ![Teaser figure](scripts/banga.png)
 
 
