@@ -1,0 +1,912 @@
+{
+    "dialogue 1": {
+        "turn 1": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "4k image, best quality, a girl, a boy and a man walking on the road to school",
+            "objects": [
+                [
+                    "girl, walking on street",
+                    [
+                        0,
+                        250,
+                        300,
+                        650
+                    ],
+                    "1"
+                ],
+                [
+                    "boy, walking on street",
+                    [
+                        350,
+                        250,
+                        300,
+                        600
+                    ],
+                    "2"
+                ],
+                [
+                    "man, walking on street",
+                    [
+                        650,
+                        200,
+                        350,
+                        650
+                    ],
+                    "3"
+                ]
+            ],
+            "background": "street background",
+            "negative": "None"
+        },
+        "turn 2": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "4k image, best quality, a man waving goodbye to the girl",
+            "objects": [
+                [
+                    "man, waving goodbye on the street",
+                    [
+                        150,
+                        100,
+                        500,
+                        800
+                    ],
+                    "3"
+                ],
+                [
+                    "girl, waving goodbye  on the street",
+                    [
+                        500,
+                        100,
+                        500,
+                        800
+                    ],
+                    "1"
+                ]
+            ],
+            "background": "the way to school",
+            "negative": "None"
+        },
+        "turn 3": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "4k image, best quality, a girl argue with a boy",
+            "objects": [
+                [
+                    "girl, angry and arguing on steet",
+                    [
+                        150,
+                        100,
+                        500,
+                        800
+                    ],
+                    "1"
+                ],
+                [
+                    "boy, angry and arguing on steet ",
+                    [
+                        450,
+                        100,
+                        500,
+                        800
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "on street",
+            "negative": "None"
+        },
+        "turn 4": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "4k image, best quality, a girl and a boy playing with a dog",
+            "objects": [
+                [
+                    "girl, playing happily with open arms",
+                    [
+                        0,
+                        250,
+                        350,
+                        600
+                    ],
+                    "1"
+                ],
+                [
+                    "boy, playing happily",
+                    [
+                        650,
+                        250,
+                        350,
+                        650
+                    ],
+                    "2"
+                ],
+                [
+                    "dog, running and playing",
+                    [
+                        350,
+                        600,
+                        300,
+                        300
+                    ],
+                    "4"
+                ]
+            ],
+            "background": "meadow background",
+            "negative": "None"
+        },
+        "turn 5": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "4k image, best quality, a sunbathing man",
+            "objects": [
+                [
+                    "man, with sunglasses sitting and sunbathing near the sea",
+                    [
+                        300,
+                        300,
+                        700,
+                        600
+                    ],
+                    "3"
+                ]
+            ],
+            "background": "On the beach",
+            "negative": "None"
+        }
+    },
+    "dialogue 2": {
+        "turn 1": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "4k image, best quality, a girl sitting near to the girl.",
+            "objects": [
+                [
+                    "boy, white hair, blue eyes, singing to the Girl",
+                    [
+                        400,
+                        300,
+                        400,
+                        700
+                    ],
+                    "1"
+                ],
+                [
+                    "girl, red hair, blue eyes, singing to the boy",
+                    [
+
+                        230,
+                        300,
+                        400,
+                        700
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "On the stage",
+            "negative": "None"
+        },
+        "turn 2": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "4k image, best quality, the girl and the boy sitting near the sofa.",
+            "objects": [
+                [
+                    "boy, white hair, blue eyes, sitting on sofa and laughing",
+                    [
+                        100,
+                        300,
+                        400,
+                        700
+                    ],
+                    "1"
+                ],
+                [
+                    "girl, red hair, blue eyes, sitting on sofa and angry",
+                    [
+                        500,
+                        300,
+                        400,
+                        700
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "in livingroom",
+            "negative": "None"
+        },
+        "turn 3": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "4k image, best quality, the boy walking on the streed",
+            "objects": [
+                [
+                    "boy, white hair, blue eyes, thinking and walking",
+                    [
+                        300,
+                        300,
+                        400,
+                        700
+                    ],
+                    "1"
+                ]
+            ],
+            "background": "street background",
+            "negative": "None"
+        }
+    },
+    "dialogue 3": {
+        "turn 1": {
+            "size": [
+                768,
+                1024
+            ],
+            "caption": "4k image, best quality, three girls",
+            "objects": [
+                [
+                    "white hair girl, playing",
+                    [
+                        0,
+                        200,
+                        300,
+                        568
+                    ],
+                    "1"
+                ],
+                [
+                    "brown cat, playing",
+                    [
+                        350,
+                        200,
+                        300,
+                        568
+                    ],
+                    "2"
+                ],
+                [
+                    "black cat, playing",
+                    [
+                        700,
+                        200,
+                        300,
+                        568
+                    ],
+                    "3"
+                ]
+            ],
+            "background": "on meadow",
+            "negative": "None"
+        },
+        "turn 2": {
+            "size": [512, 1024],
+            "caption": "a black cat, a yellow dog, a blue rabbit",
+            "objects": [
+              [
+                "black cat",
+                [ 
+                  50,
+                  100,
+                  250,
+                  400
+                ],
+                "1"
+              ],
+              [
+                "yellow dog",
+                [ 
+                  400,
+                  100,
+                  250,
+                  400
+                ],
+                "2"
+              ],
+              [
+                "blue rabbit",
+                [
+                  750,
+                  100,
+                  250,
+                  400
+                ],
+                "3"      
+              ]
+            ],
+            "background": "Volcanic background",
+            "negative": "None"
+        },
+        "turn 3": {
+            "size": [512, 1024],
+            "caption": "a lego man, a lego woman, a lego car, a lego house",
+            "objects": [
+              [
+                "Lego man",
+                [ 
+                  0,
+                  100,
+                  200,
+                  400
+                ],
+                "1"
+              ],
+              [
+                "Lego woman",
+                [ 
+                  250,
+                  100,
+                  200,
+                  400
+                ],
+                "2"
+              ],
+              [
+                "Lego car",
+                [
+                  500,
+                  100,
+                  200,
+                  400
+                ],
+                "3"      
+              ],
+              [
+                "Lego house",
+                [
+                  800,
+                  0,
+                  224,
+                  500
+                ],
+                "4"      
+              ]
+            ],
+            "background": "on the desk",
+            "negative": "None"
+        }
+    },
+    "dialogue 4": {
+        "turn 1": {
+            "size": [
+                512,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "boy, walking in cyberpun city",
+                    [
+                        0,
+                        0,
+                        400,
+                        512
+                    ],
+                    "1"
+                ],
+                [
+                    "gitl, walking in cyberpun city",
+                    [
+
+                        600,
+                        0,
+                        400,
+                        512
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 2": {
+            "size": [
+                512,
+                512
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "car, a black cyberpunk car",
+                    [
+                        50,
+                        200,
+                        400,
+                        300
+                    ],
+                    "4"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 3": {
+            "size": [
+                512,
+                512
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "girl, laughing with gun in hand",
+                    [
+                        50,
+                        50,
+                        400,
+                        450
+                    ],
+                    "3"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 4": {
+            "size": [
+                256,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "boy, serious scared face, jumping and hiding",
+                    [
+                        0,
+                        0,
+                        400,
+                        256
+                    ],
+                    "1"
+                ],
+                [
+                    "gitl, serious scared face, jumping and hiding",
+                    [
+
+                        600,
+                        0,
+                        400,
+                        256
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 5": {
+            "size": [
+                1024,
+                512
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "boy, holds a rocket launcher and fires an missile",
+                    [
+                        50,
+                        400,
+                        450,
+                        600
+                    ],
+                    "1"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 6": {
+            "size": [
+                512,
+                512
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "car, a exploded, on fire, broken car",
+                    [
+                        50,
+                        50,
+                        400,
+                        450
+                    ],
+                    "4"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 7": {
+            "size": [
+                512,
+                512
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "girl, very angry",
+                    [
+                        50,
+                        50,
+                        400,
+                        450
+                    ],
+                    "3"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 8": {
+            "size": [
+                1024,
+                512
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "girl, happy",
+                    [
+                        50,
+                        400,
+                        450,
+                        600
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 9": {
+            "size": [
+                1024,
+                512
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "boy, laughing",
+                    [
+                        50,
+                        400,
+                        450,
+                        600
+                    ],
+                    "1"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 10": {
+            "size": [
+                512,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "cyber mecha,",
+                    [
+                        200,
+                        0,
+                        600,
+                        512
+                    ],
+                    "4"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 11": {
+            "size": [
+                1024,
+                512
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "cyber mecha,",
+                    [
+                        50,
+                        400,
+                        450,
+                        600
+                    ],
+                    "4"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        },
+        "turn 12": {
+            "size": [
+                1024,
+                920
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "boy, happy look",
+                    [
+                        0,
+                        500,
+                        420,
+                        500
+                    ],
+                    "1"
+                ],
+                [
+                    "girl, determine look",
+                    [
+
+                        500,
+                        500,
+                        420,
+                        500
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "cyberpunk city background",
+            "negative": "None"
+        }
+    },
+    "dialogue 5": {
+        "turn 1": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a boy, playing violin on stage",
+                    [
+                        300,
+                        200,
+                        500,
+                        700
+                    ],
+                    "1"
+                ]
+            ],
+            "background": "Musical Theater Stage Background",
+            "negative": "None"
+        },
+        "turn 2": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a boy, Bowing on stage",
+                    [
+                        50,
+                        200,
+                        400,
+                        700
+                    ],
+                    "1"
+                ],
+                [
+                    "a girl, Applauding and cheeringe",
+                    [
+                        500,
+                        200,
+                        500,
+                        700
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "Musical Theater Stage Background",
+            "negative": "None"
+        },
+        "turn 3": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a boy, Riding a motorcycle",
+                    [
+                        0,
+                        400,
+                        500,
+                        400
+                    ],
+                    "1"
+                ],
+                [
+                    "a girl, Blushing and fall in love",
+                    [
+                        600,
+                        500,
+                        400,
+                        500
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "outdoor, night Background",
+            "negative": "None"
+        },
+        "turn 4": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a boy, studying",
+                    [
+                        200,
+                        500,
+                        400,
+                        400
+                    ],
+                    "1"
+                ],
+                [
+                    "a girl, looking at the boy",
+                    [
+                        600,
+                        500,
+                        400,
+                        400
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "on the table,",
+            "negative": "None"
+        },
+        "turn 5": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a boy, happy, jumping",
+                    [
+                        50,
+                        300,
+                        400,
+                        600
+                    ],
+                    "1"
+                ],
+                [
+                    "a girl, happy, jumping",
+                    [
+                        600,
+                        300,
+                        400,
+                        600
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "Hawaiian beach",
+            "negative": "None"
+        },
+        "turn 6": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a beautiful girl, Flirting with the eyes",
+                    [
+                        200,
+                        300,
+                        500,
+                        700
+                    ],
+                    "3"
+                ]
+            ],
+            "background": "Hawaiian beach",
+            "negative": "None"
+        },
+        "turn 7": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a boy, shy, shame, Blushing",
+                    [
+                        50,
+                        200,
+                        400,
+                        700
+                    ],
+                    "1"
+                ],
+                [
+                    "a beautiful girl, cool face",
+                    [
+                        500,
+                        200,
+                        500,
+                        700
+                    ],
+                    "3"
+                ]
+            ],
+            "background": "Hawaiian beach",
+            "negative": "None"
+        },
+        "turn 8": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a girl, extremely angry, fire in eyes",
+                    [
+                        200,
+                        300,
+                        500,
+                        700
+                    ],
+                    "2"
+                ]
+            ],
+            "background": "Hawaiian beach",
+            "negative": "None"
+        },
+        "turn 9": {
+            "size": [
+                1024,
+                1024
+            ],
+            "caption": "",
+            "objects": [
+                [
+                    "a boy, fainted and fell to the ground",
+                    [
+                        200,
+                        200,
+                        600,
+                        600
+                    ],
+                    "1"
+                ]
+            ],
+            "background": "Hawaiian beach",
+            "negative": "None"
+        }
+    }
+}
