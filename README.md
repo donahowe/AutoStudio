@@ -25,6 +25,7 @@ As cutting-edge Text-to-Image (T2I) generation models already excel at producing
 ## 👀 Contact Us
 If you have any questions, please feel free to email us at howe4884@outlook.com.
 
+★★★(I am an undergraduate student actively seeking opportunities for a Ph.D. program in 25 fall.)★★★
 ## Citation
 If you found this code helpful, please consider citing:
 ~~~
