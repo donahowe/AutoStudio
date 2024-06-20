@@ -196,7 +196,7 @@ for dialogue in instructions:
             ind_offset = repeat_ind * LARGE_CONSTANT2 + args.seed_offset
             vis_location = [dialogue, turn]
             try:
-                output = theatergen2.generate(
+                output = autostudio.generate(
                                             GROUNDING_DINO_MODEL,
                                             EFFICIENT_SAM_MODEL,
                                             character_database, 
