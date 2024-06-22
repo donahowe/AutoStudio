@@ -42,7 +42,7 @@ parser.add_argument("--sd_path", default='/data2/chengjunhao/THEATERGEN/pretrain
 parser.add_argument("--vae_path", default='/data2/chengjunhao/THEATERGEN/pretrained_models/vae_ft_mse', type=str, help="Path to VAE Folder")
 parser.add_argument("--repeats", default=2, type=int, help="Number of samples for each prompt")
 parser.add_argument("--seed_offset", default=1, type=int, help="Offset to the seed (seed starts from this number)")
-parser.add_argument("--sd_version", default='xlplus', type=str, help="Base model version. Pick from [1.5, 1.5plus, xl, xlplus]") # 1.5, 1.5plus is recommended
+parser.add_argument("--sd_version", default='1.5plus', type=str, help="Base model version. Pick from [1.5, 1.5plus, xl, xlplus]") # 1.5, 1.5plus is recommended
 parser.add_argument("--save_dir", default='output', type=str, help="Database path")
 parser.add_argument("--freeze_dialogue_seed", default = 1, type=int, help="Use same seed for each dialogue for more consistency")
 parser.add_argument("--do_latent_guidance", default = True, type=bool, help="Latent initialization for each character")
