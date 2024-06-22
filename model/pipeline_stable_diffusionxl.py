@@ -637,7 +637,6 @@ class StableDiffusionXLPipeline(DiffusionPipeline, FromSingleFileMixin, LoraLoad
         negative_crops_coords_top_left: Tuple[int, int] = (0, 0),
         negative_target_size: Optional[Tuple[int, int]] = None,
         prompt_book_info: list = None,
-        do_loss_guidance: bool = False,
         do_latent_guidance: bool = False,
         mid_state_img: Image.Image = None,
         mid_state_mask: np.ndarray = None,

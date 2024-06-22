@@ -627,7 +627,6 @@ class StableDiffusionPipeline(DiffusionPipeline, TextualInversionLoaderMixin, Lo
         cross_attention_kwargs: Optional[Dict[str, Any]] = None,
         guidance_rescale: float = 0.0,
         prompt_book_info: list = None,
-        do_loss_guidance: bool = False,
         do_latent_guidance: bool = False,
         mid_state_img: Image.Image = None,
         mid_state_mask: np.ndarray = None,

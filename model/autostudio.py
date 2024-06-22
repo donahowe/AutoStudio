@@ -305,7 +305,6 @@ class AUTOSTUDIO:
         same_model,
         character_database,
         prompt_book,
-        do_loss_guidance,
         do_latent_guidance,
         negative_prompt = None,
         img_scale = 1.0,
@@ -390,6 +389,8 @@ class AUTOSTUDIO:
             all_prompts = ["best quality, high quality"]
         if negative_prompt is None:
             negative_prompt = "monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+        else:
+            negative_prompt = negative_prompt + "monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
 
             
         num_prompts = 1 if isinstance(ref_imgs_now, Image.Image) else len(ref_imgs_now)
@@ -434,7 +435,6 @@ class AUTOSTUDIO:
             num_inference_steps=num_inference_steps,
             generator=generator,
             prompt_book_info=[have_ref, prompt_book_info],
-            do_loss_guidance=do_loss_guidance,
             do_latent_guidance=do_latent_guidance,
             layout_mask = layout_mask,
             refine_step= refine_step,
@@ -461,8 +461,9 @@ class AUTOSTUDIO:
                 all_prompts = ["best quality, high quality"]
             if negative_prompt is None:
                 negative_prompt = "monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+            else:
+                negative_prompt = negative_prompt + "monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
 
-                
             num_prompts = 1 if isinstance(ref_imgs_now, Image.Image) else len(ref_imgs_now)
             all_prompts = [prompt_book['global_prompt'],prompt_book['bg_prompt']]
             #print('Generate global prompt:',prompt_book['global_prompt'])
@@ -505,7 +506,6 @@ class AUTOSTUDIO:
                 num_inference_steps=15,
                 generator=generator,
                 prompt_book_info=[have_ref, prompt_book_info],
-                do_loss_guidance=False,
                 do_latent_guidance=False,
                 layout_mask=layout_mask,
                 refine_step=50,
@@ -558,7 +558,6 @@ class AUTOSTUDIOXL(AUTOSTUDIO):
         same_model,
         character_database,
         prompt_book,
-        do_loss_guidance,
         do_latent_guidance,
         negative_prompt = None,
         img_scale = 1.0,
@@ -645,7 +644,9 @@ class AUTOSTUDIOXL(AUTOSTUDIO):
         if prompt_book['global_prompt'] is None:
             all_prompts = ["best quality, high quality"]
         if negative_prompt is None:
-            negative_prompt = "monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+            negative_prompt = "comic, cartoon, monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+        else:
+            negative_prompt = negative_prompt + "comic, cartoon, monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
             
         num_prompts = 1 if isinstance(ref_imgs_now, Image.Image) else len(ref_imgs_now)
         all_prompts = [prompt_book['global_prompt'],prompt_book['bg_prompt']]
@@ -711,7 +712,6 @@ class AUTOSTUDIOXL(AUTOSTUDIO):
             num_inference_steps = num_inference_steps,
             generator = generator,
             prompt_book_info = [have_ref, prompt_book_info],
-            do_loss_guidance = do_loss_guidance,
             do_latent_guidance = do_latent_guidance,
             layout_mask = layout_mask,
             refine_step= refine_step,
@@ -736,7 +736,9 @@ class AUTOSTUDIOXL(AUTOSTUDIO):
             if prompt_book['global_prompt'] is None:
                 all_prompts = ["best quality, high quality"]
             if negative_prompt is None:
-                negative_prompt = "monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+                negative_prompt = "comic, cartoon, monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+            else:
+                negative_prompt = negative_prompt + "comic, cartoon, monochrome, lowres, bad anatomy, worst quality, low quality, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, pgly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
 
                 
             num_prompts = 1 if isinstance(ref_imgs_now, Image.Image) else len(ref_imgs_now)
@@ -802,7 +804,6 @@ class AUTOSTUDIOXL(AUTOSTUDIO):
                 num_inference_steps = 10,
                 generator = generator,
                 prompt_book_info = [have_ref, prompt_book_info],
-                do_loss_guidance = False,
                 do_latent_guidance = False,
                 layout_mask = layout_mask,
                 refine_step= 50,
@@ -850,7 +851,6 @@ class AUTOSTUDIOXLPlus(AUTOSTUDIO):
         same_model,
         character_database,
         prompt_book,
-        do_loss_guidance,
         do_latent_guidance,
         negative_prompt = None,
         img_scale = 1.0,
@@ -1005,7 +1005,6 @@ class AUTOSTUDIOXLPlus(AUTOSTUDIO):
             num_inference_steps = num_inference_steps,
             generator = generator,
             prompt_book_info = [have_ref, prompt_book_info],
-            do_loss_guidance = do_loss_guidance,
             do_latent_guidance = do_latent_guidance,
             layout_mask = layout_mask,
             refine_step= refine_step,
@@ -1095,7 +1094,6 @@ class AUTOSTUDIOXLPlus(AUTOSTUDIO):
                 num_inference_steps = 10,
                 generator = generator,
                 prompt_book_info = [have_ref, prompt_book_info],
-                do_loss_guidance = False,
                 do_latent_guidance = False,
                 layout_mask = layout_mask,
                 refine_step= 50,
