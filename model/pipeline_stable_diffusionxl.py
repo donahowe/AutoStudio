@@ -646,6 +646,7 @@ class StableDiffusionXLPipeline(DiffusionPipeline, FromSingleFileMixin, LoraLoad
         object_positions: List = [],
         return_latents: bool = False,
         is_editing: bool = False,
+        repeat_ind: int = 0,
     ):
         r"""
         Function invoked when calling the pipeline for generation.
