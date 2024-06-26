@@ -42,7 +42,6 @@ from diffusers.pipeline_utils import DiffusionPipeline
 from diffusers.pipelines.stable_diffusion import StableDiffusionPipelineOutput
 from diffusers.pipelines.stable_diffusion.safety_checker import StableDiffusionSafetyChecker
 import torch.optim as optim
-import clip
 
 logger = logging.get_logger(__name__)  # pylint: disable=invalid-name
 
