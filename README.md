@@ -19,13 +19,14 @@ As cutting-edge Text-to-Image (T2I) generation models already excel at producing
 - [x] Release SDv1.5 code
 
 ## :fire: News
+* **[2024.06.22]** AutoStudio got 200🌟!
 * **[2024.06.22]** Bugs are fixed, SDXL version released
 * **[2024.06.11]** We have release the SDv1.5 code
 * **[2024.06.06]** We have release the repository
 
 ## 🚀 Run
 1. Prepare all the pretrained checkpoints of SD (strongly recommand `dreamlike-art/dreamlike-anime-1.0`) and IP-Adapter
-2. Prepare `/DETECT_SAMefficient_sam_s_gpu.jit` and `/DETECT_SAM/Grounding-DINO/groundingdino_swint_ogc.pth`
+2. Prepare `/DETECT_SAMefficient_sam_s_gpu.jit` and `/DETECT_SAM/Grounding-DINO/groundingdino_swint_ogc.pth` for groundingdino and efficientSAM
 3. create the environment and run this code:
 
 ```
