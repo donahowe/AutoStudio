@@ -15,8 +15,8 @@ As cutting-edge Text-to-Image (T2I) generation models already excel at producing
 
 ## TODO
 - [ ] Release ComfUI
-- [√] Release SDXL code
-- [√] Release SDv1.5 code
+- [x] Release SDXL code
+- [x] Release SDv1.5 code
 
 ## :fire: News
 * **[2024.06.26]** AutoStudio got 200🌟!
