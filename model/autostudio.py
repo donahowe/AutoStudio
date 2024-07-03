@@ -4,7 +4,7 @@ dpath = os.path.dirname(current_file_path)
 ppath = os.path.dirname(dpath)
 
 import sys
-sys.path.append(f"{ppath}/YOLO_SAM/yoloSam.py")
+sys.path.append(f"{ppath}/DETECT_SAM/detectSam.py")
 
 import torch
 import numpy as np
