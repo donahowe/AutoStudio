@@ -35,8 +35,9 @@ python run.py
 
 ## 👀 Contact Us
 If you have any questions, please feel free to email us at howe4884@outlook.com.
-
 🌟🌟🌟(I am an undergraduate student actively seeking opportunities for a Ph.D. program in 25 fall.)🌟🌟🌟
+Community
+![Teaser figure](scripts/group.jpg)
 ## Citation
 If you found this code helpful, please consider citing:
 ~~~
