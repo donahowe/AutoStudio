@@ -144,4 +144,4 @@ if __name__ == '__main__':
         with_confidence
     )
     output_image.save(f'{dpath}/Grounding-DINO/assert/result1.png')
-    #cv2.imwrite(f'{dpath}/output.png', output_image)
+    ##cv2.imwrite(f'{dpath}/output.png', output_image)
