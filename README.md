@@ -3,7 +3,7 @@
 ## AutoStudio: Crafting Consistent Subjects in Multi-turn Interactive Image Generation
 [📄[Paper](https://arxiv.org/abs/2406.01388)] &emsp; [🚩[Project Page](https://howe183.github.io/AutoStudio.io/)] <br>
 
-[![zhihu](https://img.shields.io/badge/-WeChat@量子位-000000?logo=wechat&logoColor=07C160)]([https://mp.weixin.qq.com/s/EFqLv_Euf5VU024zOtzkkg](https://mp.weixin.qq.com/s/fjJF1LfyW49EHmmetiSQLQ))
+[![zhihu](https://img.shields.io/badge/-WeChat@量子位-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/fjJF1LfyW49EHmmetiSQLQ)
 ![Teaser figure](scripts/banga.png)
 </div>
 
