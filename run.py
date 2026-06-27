@@ -90,7 +90,7 @@ if args.sd_version == '1.5':
     )
 
     autostudio = AUTOSTUDIO(sd_pipe, image_encoder_path, ip_ckpt, device)
-    print('Succesfully load models')
+    print('Successfully load models')
 
 elif args.sd_version == '1.5plus':
     ip_ckpt = "/IP-Adapter/models/ip-adapter-plus_sd15.bin"
@@ -119,7 +119,7 @@ elif args.sd_version == '1.5plus':
     )
 
     autostudio = AUTOSTUDIOPlus(sd_pipe, image_encoder_path, ip_ckpt, device, num_tokens=16)
-    print('Succesfully load models')
+    print('Successfully load models')
 
 elif args.sd_version == 'xl':
     base_model_path = "pretrained_models/diffusion_xl"
